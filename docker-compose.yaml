@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: fc-lx-desafio-2
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/home/node/app

@@ -1,14 +1,17 @@
 {
   "name": "fc-lx-desafio-02",
+  "author": "Giovani Franz",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prisma:generate": "npx prisma generate"
   },
   "dependencies": {
+    "@prisma/client": "^4.13.0",
     "@types/node": "18.15.13",
     "@types/react": "18.0.37",
     "@types/react-dom": "18.0.11",
