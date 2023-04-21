@@ -1,6 +1,6 @@
 # Full Cycle Learning Experience - Desafio 02
 
-##Informações do desafio
+## Informações do desafio
 
 Neste desafio, você deve criar uma aplicação Next.js com Docker que rode na porta 3000.
 Esta aplicação precisa expor 2 rotas de API Rest:
